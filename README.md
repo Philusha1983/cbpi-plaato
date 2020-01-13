@@ -1,4 +1,4 @@
-# Plaato Plugin for Craftbeerpi3
+# Plaato Keg Plugin for Craftbeerpi3
 
 ## Installation
 
@@ -7,7 +7,7 @@
 
 ## Configuration
 
-This is a sensor plugin so when you go to add a new sensor there will be a new sensor type called PlaatoSensor
+This is a sensor plugin so when you go to add a new sensor there will be a new sensor type called Plaato Keg Sensor
 
 There a 3 options to set for this sensor
 
