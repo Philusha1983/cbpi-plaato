@@ -1,4 +1,4 @@
-# Plaato Keg Plugin for Craftbeerpi3
+# Plaato Devices Plugin for Craftbeerpi3
 
 ## Installation
 
