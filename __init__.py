@@ -7,14 +7,7 @@ from modules.core.props import Property
 import json
 
 PINS = {
-    "Bubbles per minute": "v102",
-    "Temperature": "v103",
-    "Volume": "v104",
-    "Original Gravity": "v105",
-    "Specific Gravity": "v106",
-    "ABV": "v107",
-    "Total Bubbles": "v110",
-    "Co2": "v119"
+    "Percent of beer left": "v48"
 }
 
 plaato_base_url = 'http://plaato.blynk.cc'
@@ -33,14 +26,8 @@ class PlaatoSensor(SensorActive):
         "Refresh Time", default_value="5", configurable=True)
 
     def get_unit(self):
-        if self.pin == "Temperature":
-            return self.get("v108")
-        elif self.pin == "Volume":
-            return self.get("v109")
-        elif self.pin == "Bubbles per minute":
-            return "bpm"
-        elif self.pin == "ABV":
-            return "%"
+        if self.pin == "Percent of beer left":
+            return "% Beer left"
         else:
             return ""
 
